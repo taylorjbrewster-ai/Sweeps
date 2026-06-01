@@ -8,7 +8,7 @@
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-<nav><div class="wrap navin"><a class="brand" href="index.html"><span class="mark"></span>Sweeps Vault</a><div class="navlinks"><a href="index.html" class="on">Casinos</a><a href="about.html">About</a><a href="responsible-gambling.html">Responsible Gambling</a><a href="terms.html">Terms</a><a href="privacy.html">Privacy</a><a href="contact.html">Contact</a></div></div></nav>
+<nav><div class="wrap navin"><a class="brand" href="index"><span class="mark"></span>Sweeps Vault</a><div class="navlinks"><a href="index" class="on">Casinos</a><a href="about">About</a><a href="responsible-gambling">Responsible Gambling</a><a href="terms">Terms</a><a href="privacy">Privacy</a><a href="contact">Contact</a></div></div></nav>
 
 <header class="hero"><div class="wrap">
 <h1>Sweeps Vault</h1>
@@ -57,12 +57,12 @@
 
 <footer class="footer"><div class="wrap">
 <div class="frow">
-<a href="index.html">Casinos</a>
-<a href="about.html">About</a>
-<a href="responsible-gambling.html">Responsible Gambling</a>
-<a href="terms.html">Terms</a>
-<a href="privacy.html">Privacy</a>
-<a href="contact.html">Contact</a>
+<a href="index">Casinos</a>
+<a href="about">About</a>
+<a href="responsible-gambling">Responsible Gambling</a>
+<a href="terms">Terms</a>
+<a href="privacy">Privacy</a>
+<a href="contact">Contact</a>
 </div>
 <p class="disc">Sweeps Vault is an independent affiliate guide to social and sweepstakes casinos and may earn a commission from links on this site. Nothing here is gambling, financial or legal advice. Sweepstakes casinos are intended for entertainment and are restricted to eligible adults in eligible states. No purchase is necessary. If you or someone you know has a gambling problem, call <span class="age">1-800-GAMBLER</span> for help. You must be 18 or older (21+ at some operators) to play. <span class="age">© 2026 Sweeps Vault</span></p>
 </div></footer>
@@ -160,7 +160,7 @@
   function cardHtml(c){
     return '<div class="c">'
       +'<div class="chead"><span class="gr '+esc(c.grade)+'">'+esc(c.grade)+'</span>'
-      +'<div><div class="cname"><a href="'+esc(c.slug)+'.html">'+esc(c.name)+'</a></div>'
+      +'<div><div class="cname"><a href="'+esc(c.slug)+'">'+esc(c.name)+'</a></div>'
       +'<div class="badges">'+badgesHtml(c)+'</div></div></div>'
       +'<div class="blurb">'+esc(c.blurb)+'</div>'
       +'<div class="specs">'
@@ -172,13 +172,13 @@
       +'<div>NY <b>'+dash(c.ny)+'</b></div>'
       +'</div>'
       +'<div class="cfoot"><div class="op"><b>'+esc(c.company)+'</b><br>'+esc(c.loc)+'</div>'
-      +'<a class="review-link" href="'+esc(c.slug)+'.html">Read review</a>'
+      +'<a class="review-link" href="'+esc(c.slug)+'">Read review</a>'
       +joinBtn(c)+'</div></div>';
   }
 
   function rowHtml(c){
     return '<tr>'
-      +'<td><a href="'+esc(c.slug)+'.html">'+esc(c.name)+'</a> <span class="badges">'+badgesHtml(c)+'</span></td>'
+      +'<td><a href="'+esc(c.slug)+'">'+esc(c.name)+'</a> <span class="badges">'+badgesHtml(c)+'</span></td>'
       +'<td><span class="gr '+esc(c.grade)+'">'+esc(c.grade)+'</span></td>'
       +'<td>'+dailyText(c.daily)+'</td>'
       +'<td><span class="lv '+lvClass(c.dv)+'">'+lvText(c.dv)+'</span></td>'

@@ -23,7 +23,7 @@ Every "Join" / "Claim Bonus" button uses your affiliate link, opens in a new tab
 3. Your site goes live at `https://<username>.github.io/<repo>/` in a minute or two.
 
 ### Before you go live
-- **Set your real domain.** Canonical URLs and the sitemap currently use `https://sweepsvault.com/`. Find-and-replace that with your actual domain across the `.html` files and `sitemap.xml`. (If you use a custom domain, add a `CNAME` file with the domain in it.)
+- **Set your real domain.** Canonical URLs and the sitemap currently use `https://sweeps-vault.com/`. Find-and-replace that with your actual domain across the `.html` files and `sitemap.xml`. (If you use a custom domain, add a `CNAME` file with the domain in it.)
 - **Double-check restricted-state lists** on the review pages — these change often. The affiliate offer figures reflect what was advertised when the pages were written; verify before relying on them.
 
 ## Editing the list later
